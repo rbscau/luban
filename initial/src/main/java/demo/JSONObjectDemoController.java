@@ -8,7 +8,7 @@ import java.util.Date;
 @RestController
 public class JSONObjectDemoController {
     
-    @RequestMapping("/helloController")
+    @RequestMapping("/jsonMethod")
     public Order index() {
         return new Order("123",new Date(),123.56f);
     }
